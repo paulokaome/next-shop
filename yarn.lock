@@ -181,6 +181,11 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-18.7.20.tgz"
   integrity sha512-adzY4vLLr5Uivmx8+zfSJ5fbdgKxX8UMtjtl+17n0B1q1Nz8JEmE151vefMdpD+1gyh+77weN4qEhej/O7budQ==
 
+"@types/node@>=8.1.0":
+  version "18.7.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.21.tgz#63ee6688070e456325b6748dc492a7b948593871"
+  integrity sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
@@ -1146,6 +1151,11 @@ json5@^1.0.1:
     array-includes "^3.1.5"
     object.assign "^4.1.3"
 
+keen-slider@^6.8.2:
+  version "6.8.2"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-6.8.2.tgz#be03e2225cde2a829df53e71c15caed66fbbe82a"
+  integrity sha512-vMVLPVfgTkLTNseKM42hnOJz/k/C4x4atCJqKRmPh2Mb4L/+Pzh4qvq9k6qT7/pKBxnsNxOlcxq80NoZq/N3Iw==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz"
@@ -1431,6 +1441,13 @@ punycode@^2.1.0:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+qs@^6.10.3:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz#fd0d963446f7a65e1367e01abd85429453f0c37a"
+  integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==
+  dependencies:
+    side-channel "^1.0.4"
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
@@ -1624,6 +1641,14 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
+
+stripe@^10.11.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-10.11.0.tgz#c9a0d0edd6abbc3daaf7a80c6b6cf25dfc66b662"
+  integrity sha512-uBkaxrz/nPTENY46HJDjUjhanl2oScUxOJjU8bvmXn1i1NJAjaFcW0Y+NKGODDqTtNF6d+DOc5iB54A0OdPsWQ==
+  dependencies:
+    "@types/node" ">=8.1.0"
+    qs "^6.10.3"
 
 styled-jsx@5.0.7:
   version "5.0.7"
