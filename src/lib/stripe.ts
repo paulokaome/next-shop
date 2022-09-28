@@ -1,3 +1,10 @@
 import Stripe from "stripe";
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {});
+const SECRET = process.env.STRIPE_SECRET_KEY!;
+
+export const stripe = new Stripe(SECRET, {
+  apiVersion: "2022-08-01",
+  appInfo: {
+    name: "Shop-Shirt",
+  },
+});
